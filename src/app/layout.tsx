@@ -9,7 +9,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Sukhbir | App Developer",
-  description: "Portfolio of Sukhbir, a premium mobile app developer specializing in React Native, Swift, and Kotlin.",
+  description: "Portfolio of Sukhbir, a premium mobile app developer specializing in Flutter and Dart.",
 };
 
 export default function RootLayout({

@@ -37,8 +37,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-2xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed"
         >
-          I craft premium, high-performance mobile experiences for iOS and Android. 
-          Specializing in React Native, Swift, and modern app architecture.
+          I craft premium, high-performance mobile experiences for iOS, Android, and Web. 
+          Specializing in Flutter, Dart, and modern cross-platform app architecture.
         </motion.p>
 
         <motion.div

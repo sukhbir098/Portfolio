@@ -4,22 +4,17 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    year: "2024 - Present",
-    role: "Senior Mobile Engineer",
-    company: "TechNova Solutions",
-    description: "Leading a team of 5 mobile developers. Architected a cross-platform fintech app using React Native, reducing load times by 40% and increasing user retention.",
-  },
-  {
-    year: "2022 - 2024",
-    role: "iOS Developer",
-    company: "AppCraft Studios",
-    description: "Developed and maintained 3 native iOS applications using Swift and SwiftUI. Implemented complex animations and integrated real-time video streaming.",
-  },
-  {
-    year: "2020 - 2022",
+    year: "2025 - Present",
     role: "Mobile App Developer",
-    company: "Digital Frontier",
-    description: "Built native Android applications using Kotlin. Collaborated closely with UI/UX designers to translate Figma designs into pixel-perfect interfaces.",
+    company: "Keshvacredit services Private Limited",
+    description: "Developing an innovative cross-platform mobile application using Flutter.",
+  },
+
+  {
+    year: "2024",
+    role: "Flutter Developer",
+    company: "Freelancing",
+    description: "Created dynamic and interactive user interfaces for various clients using Flutter and Dart.",
   },
 ];
 
@@ -54,7 +49,7 @@ export default function Experience() {
             >
               {/* Timeline Marker */}
               <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#050505] bg-indigo-500 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10" />
-              
+
               {/* Content Card */}
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-panel p-6 rounded-2xl group-hover:border-indigo-500/30 transition-colors">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">

@@ -5,39 +5,39 @@ import { Smartphone, Code2, Database, Layout, GitBranch, Zap } from "lucide-reac
 
 const skills = [
   {
-    category: "Mobile Frameworks",
+    category: "Frameworks & UI",
     icon: <Smartphone className="w-6 h-6 text-indigo-400" />,
-    items: ["React Native", "Flutter", "SwiftUI", "Jetpack Compose"],
+    items: ["Flutter", "Material Design", "Cupertino", "Custom Painters"],
     colSpan: "md:col-span-2",
   },
   {
     category: "Languages",
     icon: <Code2 className="w-6 h-6 text-purple-400" />,
-    items: ["Swift", "Kotlin", "TypeScript", "Dart"],
+    items: ["Dart", "C++", "HTML/CSS"],
     colSpan: "md:col-span-1",
   },
   {
     category: "Backend & DB",
     icon: <Database className="w-6 h-6 text-blue-400" />,
-    items: ["Firebase", "Supabase", "Node.js", "CoreData"],
+    items: ["Firebase", "Supabase", "SQLite", "Hive"],
     colSpan: "md:col-span-1",
   },
   {
-    category: "UI/UX Architecture",
+    category: "State Management",
     icon: <Layout className="w-6 h-6 text-pink-400" />,
-    items: ["MVVM", "Clean Architecture", "Figma", "Framer Motion"],
+    items: ["BLoC", "Riverpod", "Provider", "GetX"],
     colSpan: "md:col-span-2",
   },
   {
     category: "Tools",
     icon: <GitBranch className="w-6 h-6 text-green-400" />,
-    items: ["Git", "Fastlane", "Xcode", "Android Studio"],
+    items: ["Git", "VS Code", "Android Studio", "Figma"],
     colSpan: "md:col-span-1",
   },
   {
     category: "Performance",
     icon: <Zap className="w-6 h-6 text-yellow-400" />,
-    items: ["Profiling", "Memory Management", "CI/CD"],
+    items: ["DevTools", "Isolates", "CI/CD (Codemagic)"],
     colSpan: "md:col-span-2",
   },
 ];

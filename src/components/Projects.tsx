@@ -6,24 +6,24 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     title: "Fintech Mobile Bank",
-    category: "Finance / iOS & Android",
-    description: "A secure, high-performance banking application with real-time transactions, biometric authentication, and a stunning dark mode UI.",
+    category: "Finance / Cross-Platform",
+    description: "A secure, high-performance banking application with real-time transactions, biometric authentication, and a stunning dark mode UI built entirely with Flutter.",
     image: "linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)", // Placeholder for actual image
-    tags: ["React Native", "TypeScript", "Zustand"],
+    tags: ["Flutter", "Dart", "Riverpod", "Firebase"],
   },
   {
     title: "HealthTrack Pro",
-    category: "Health & Fitness / iOS App",
-    description: "Apple HealthKit integrated fitness tracker with beautiful charts, workout routines, and social sharing capabilities.",
+    category: "Health & Fitness / Mobile App",
+    description: "Cross-platform fitness tracker with beautiful custom painted charts, workout routines, and seamless data synchronization.",
     image: "linear-gradient(135deg, #064e3b 0%, #065f46 100%)", // Placeholder
-    tags: ["SwiftUI", "CoreData", "HealthKit"],
+    tags: ["Flutter", "BLoC", "Hive"],
   },
   {
     title: "SmartHome Controller",
-    category: "IoT / Android App",
-    description: "Centralized control for smart home devices via MQTT, featuring real-time status updates and automated routines.",
+    category: "IoT / Cross-Platform",
+    description: "Centralized control for smart home devices via MQTT, featuring real-time status updates and animated custom widgets.",
     image: "linear-gradient(135deg, #4c1d95 0%, #5b21b6 100%)", // Placeholder
-    tags: ["Kotlin", "Jetpack Compose", "MQTT"],
+    tags: ["Flutter", "Dart", "Provider", "MQTT"],
   },
 ];
 
