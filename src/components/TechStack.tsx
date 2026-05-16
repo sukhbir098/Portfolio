@@ -34,12 +34,6 @@ const skills = [
     items: ["Git", "VS Code", "Android Studio", "Figma"],
     colSpan: "md:col-span-1",
   },
-  {
-    category: "Performance",
-    icon: <Zap className="w-6 h-6 text-yellow-400" />,
-    items: ["DevTools", "Isolates", "CI/CD (Codemagic)"],
-    colSpan: "md:col-span-2",
-  },
 ];
 
 export default function TechStack() {

@@ -1,11 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowRight, Download, Mail } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+    <section className="relative flex items-center justify-center pt-20 overflow-hidden">
       {/* Abstract Background Elements */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl -z-10 mix-blend-screen" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl -z-10 mix-blend-screen" />
@@ -37,7 +37,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-2xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed"
         >
-          I craft premium, high-performance mobile experiences for iOS, Android, and Web. 
+          I craft premium, high-performance mobile experiences for iOS, Android, and Web.
           Specializing in Flutter, Dart, and modern cross-platform app architecture.
         </motion.p>
 
@@ -58,22 +58,11 @@ export default function Hero() {
             href="#contact"
             className="px-8 py-4 glass-panel hover:bg-white/5 text-white rounded-full font-medium transition-all duration-300 flex items-center gap-2"
           >
-            <Download className="w-4 h-4" />
-            Download Resume
+            <Mail className="w-4 h-4" />
+            Message Me
           </a>
         </motion.div>
       </div>
-      
-      {/* Scroll indicator */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-      >
-        <span className="text-xs text-gray-500 uppercase tracking-widest">Scroll</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-gray-500 to-transparent" />
-      </motion.div>
     </section>
   );
 }
